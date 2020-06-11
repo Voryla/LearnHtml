@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--cellspacing属性用来调整单元格之间的空白距离，cellpadding属性用来调整单元边沿与其内容之间的距离-->
+<table border="1px" cellspacing="0">
+    <tr>
+        <th>姓名</th>
+        <th>性别</th>
+        <th>年龄</th>
+    </tr>
+    <tr>
+        <td>刘德华</td>
+        <td>男</td>
+        <td>56</td>
+    </tr>
+    <tr>
+        <td>张学友</td>
+        <td>男</td>
+        <td>55</td>
+    </tr>
+    <tr>
+        <td>黎明</td>
+        <td>男</td>
+        <td>18</td>
+    </tr>
+</table>
+<h3>表格案例</h3>
+<table border="1" cellspacing="0" cellpadding="0">
+    <thead>
+    <tr>
+        <th>排名</th>
+        <th>关键词</th>
+        <th>趋势</th>
+        <th>今日搜索</th>
+        <th>最近七日</th>
+        <th>相关链接</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>鬼吹灯</td>
+        <td><img src="up.png"></td>
+        <td>345</td>
+        <td>123</td>
+        <td>&nbsp;<a href="https://tieba.baidu.com/index.html?traceid=">贴吧</a>&nbsp;<a href="https://image.baidu.com/">图片</a>&nbsp;<a
+                href="https://baike.baidu.com/">百科</a></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>盗墓笔记</td>
+        <td><img src="down.png"></td>
+        <td>124</td>
+        <td>67592</td>
+        <td>&nbsp;<a href="https://tieba.baidu.com/index.html?traceid=">贴吧</a>&nbsp;<a href="https://image.baidu.com/">图片</a>&nbsp;<a
+                href="https://baike.baidu.com/">百科</a></td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>西游记</td>
+        <td><img src="up.png"></td>
+        <td>212</td>
+        <td>7651</td>
+        <td>&nbsp;<a href="https://tieba.baidu.com/index.html?traceid=">贴吧</a>&nbsp;<a href="https://image.baidu.com/">图片</a>&nbsp;<a
+                href="https://baike.baidu.com/">百科</a></td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>东游记</td>
+        <td><img src="up.png"></td>
+        <td>356</td>
+        <td>1245</td>
+        <td>&nbsp;<a href="https://tieba.baidu.com/index.html?traceid=">贴吧</a>&nbsp;<a href="https://image.baidu.com/">图片</a>&nbsp;<a
+                href="https://baike.baidu.com/">百科</a></td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>甄嬛传</td>
+        <td><img src="down.png"></td>
+        <td>8879</td>
+        <td>6598</td>
+        <td>&nbsp;<a href="https://tieba.baidu.com/index.html?traceid=">贴吧</a>&nbsp;<a href="https://image.baidu.com/">图片</a>&nbsp;<a
+                href="https://baike.baidu.com/">百科</a></td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>水浒传</td>
+        <td><img src="up.png"></td>
+        <td>698</td>
+        <td>7549</td>
+        <td>&nbsp;<a href="https://tieba.baidu.com/index.html?traceid=">贴吧</a>&nbsp;<a href="https://image.baidu.com/">图片</a>&nbsp;<a
+                href="https://baike.baidu.com/">百科</a></td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>三国演义</td>
+        <td><img src="up.png"></td>
+        <td>156</td>
+        <td>659</td>
+        <td>&nbsp;<a href="https://tieba.baidu.com/index.html?traceid=">贴吧</a>&nbsp;<a href="https://image.baidu.com/">图片</a>&nbsp;<a
+                href="https://baike.baidu.com/">百科</a></td>
+    </tr>
+    </tbody>
+</table>
+<h4>合并单元格,跨行在跨行区域的最顶部的单元格写合并代码，跨列在跨列区域最左侧单元格写合并代码。记得删除多余的单元格</h4>
+<table border="1" cellpadding="0" cellspacing="0">
+    <thead>
+    <tr>
+        <th> 排名</th>
+        <th>销量</th>
+        <th>书名</th>
+        <th>作者</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td rowspan="2">1</td>
+    </tr>
+    <tr>
+        <td colspan="2">1</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td> 1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

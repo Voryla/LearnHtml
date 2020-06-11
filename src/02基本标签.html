@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en"><!--lang="en"表示默认语言为english-->
+<head>
+    <meta charset="UTF-8">
+    <!--    移动端开发设置-->
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!--    如果使用ie打开该文件，默认采用edge打开-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<!--1.div:用来布局，没有具体含义-->
+<div>
+    这是一个div
+    <!--        可用于对大的内容块设置样式属性-->
+    <!--        文档布局，它取代了使用表格定义布局的老式方法-->
+</div>
+
+<!--2.hx标签：从1-6级，1级最大，6级最小，会自动加粗，有默认字号。若大于6或者小于1时内容为普通内容-->
+<h6>前端学习</h6>
+
+<!--3.p:表示段落，相当于一个回车-->
+<p>菩提本无树，明镜亦非台，本来无一物，何处惹尘埃。</p>
+
+<!--4.br：插入一个简单的换行符，但标签-->
+<p>菩提偈<br/>菩提本无树，<br/>明镜亦非台，<br/>本来无一物，<br/>何处惹尘埃。</p>
+
+<!--5.hr:生成一条水平线，主要起装饰作用，单标签-->
+<hr/>
+
+<!--设置hr的样式-->
+<hr style="width: 50%;height: 3px;background-color: red;border-color: red;float: left"/><br/>
+
+<!--6.a:实现跳转 title:鼠标移至超链接时给予提示 target:设置跳转的方式 文本：显示在页面-->
+<a href="https://google.com" title="谷歌" target="_self">跳转至谷歌</a>
+<a href="01%20HTML文档结构.html" title="本地文件" target="_blank">跳转至本地文件</a><br/>
+
+<!--7.img:用来加载外部图片，图像。src：用来设定加载的图片或图像的路径 alt：当图片或图像加载不成功时显示。单标签 width设置宽度，height高度，border设置边框-->
+<img src="../image/bing_p_rr_teal_min.ico" alt="图片加载失败" title="这是一个图片"/>
+<img src="../image/bing_p_rr_teal_msin.ico" alt="图片加载失败" title="这是一个图片"/><br/>
+
+<!--8.span:作用与div相同，均用来布局是使用，与div不同的是span标签不会自动换行，所以span用于行内布局-->
+<span>span1</span>
+<span>span2</span><br/>
+
+<!--9.ul/ol列表标签，前者无序后者有序，它们的列表内容都是li标签 lambda表达式：ul>li{内容$}*3 -->
+<ul>
+    <li>li1</li>
+    <li>li2</li>
+    <li>li3</li>
+</ul>
+<ol>
+    <li>li1</li>
+    <li>li2</li>
+    <li>li3</li>
+</ol>
+</body>
+</html>
